@@ -1,0 +1,25 @@
+:root{font-family:system-ui,sans-serif;color:#18342e;background:#f5f8f4;line-height:1.6}
+*{box-sizing:border-box}body{margin:0}a{color:#176244;text-underline-offset:3px}
+header,main,footer{max-width:1080px;margin:auto;padding:24px}
+header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #d6e2d8}
+.brand{font-size:24px;font-weight:800;text-decoration:none}nav{display:flex;gap:20px}
+h1{line-height:1.2;margin:8px 0;font-size:32px}.eyebrow{font-size:12px;letter-spacing:2px}
+.heading,.actions{display:flex;align-items:center;gap:16px}.heading{justify-content:space-between;margin:24px 0}
+button,.button{background:#176244;color:#fff;border:0;border-radius:7px;padding:10px 16px;font:inherit;cursor:pointer;text-decoration:none}
+button:disabled{opacity:.5;cursor:default}.danger{background:#fff;color:#9c2525;border:1px solid #dbb7b7}
+input,select{font:inherit;border:1px solid #9eaea3;border-radius:6px;padding:10px;background:white;max-width:100%}
+input[aria-invalid=true],select[aria-invalid=true]{border-color:#aa2525}
+:focus-visible{outline:3px solid #e29b22;outline-offset:3px}
+.search{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:24px}
+.table-wrap{overflow-x:auto;background:white;border:1px solid #d6e2d8;border-radius:10px}
+table{width:100%;border-collapse:collapse}caption{text-align:left;padding:12px 18px;color:#52685c}
+th,td{text-align:left;padding:14px 18px;border-top:1px solid #e1e8df;white-space:nowrap}th{background:#edf3eb}
+.badge{background:#e6f2df;color:#28551c;padding:4px 10px;border-radius:20px}.habis{background:#faedda;color:#7a4819}
+.notice{background:#e6f2df;padding:14px;border-radius:8px}.error{color:#9c2525}
+.product-form{max-width:600px;background:#fff;border:1px solid #d6e2d8;border-radius:10px;padding:24px}
+.product-form>div{margin-bottom:18px}.product-form label{display:block;font-weight:600;margin-bottom:5px}
+.product-form input,.product-form select{width:100%}.product-form small{display:block}
+.pagination{display:flex;gap:20px;margin:20px 0;flex-wrap:wrap}footer{font-size:14px;color:#52685c}
+@media(max-width:640px){header,.heading{align-items:flex-start;flex-direction:column;gap:16px}
+header,main,footer{padding:18px}h1{font-size:27px}.search{align-items:stretch;flex-direction:column}}
+@media print{header,footer,.search,.actions,.pagination,.button{display:none}body{background:#fff}main{max-width:none}}

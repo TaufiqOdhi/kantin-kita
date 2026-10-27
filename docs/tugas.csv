@@ -1,0 +1,15 @@
+ID,Hari,Tugas,PIC_role,Kriteria_selesai,Bukti,Status
+T01,1,Sepakati tim dan aturan,PM,Semua siswa memiliki peran,Daftar peran,To do
+T02,1,Periksa akses board,QA,Setiap anggota bisa membuka board,Bukti login,To do
+T03,2,Gambar flowchart,Analyst,Normal dan gagal ditelusuri,Diagram dan tabel uji,To do
+T04,3,Latihan logika,Backend,Empat input batas dijelaskan,Source dan hasil,To do
+T05,4,Wawancara dan story,Analyst,10 story dengan acceptance criteria,Catatan dan backlog,To do
+T06,5,Review PRD FSD,Analyst,Data dan scope konsisten,Dokumen direview,To do
+T07,6,Latihan OOP MVC,Backend,Method dan alur request dijelaskan,Source dan peta MVC,To do
+T08,7,Route dan katalog array,Frontend,Katalog dan empty state berjalan,Source dan screenshot,To do
+T09,8,Migration dan seeder,Backend,Relasi dan data 3 kategori 6 produk benar,migrate status dan QA,To do
+T10,9,Form CRUD,Frontend,Create update delete dapat dijalankan,Source dan bukti,To do
+T11,9,Validasi dan QA,QA,Input salah tidak mengubah DB,Matriks actual,To do
+T12,10,Demo dan handoff,PM,Paket dapat dijalankan orang lain,Source lock docs QA board,To do
+T13,Lanjutan,Transaksi atomik,Backend,Stok dan pembayaran konsisten,Menunggu FEAT-01 dan review FSD,To do
+T14,Lanjutan,Laporan omzet,Backend,Total dihitung dari transaksi,Menunggu transaksi,To do
